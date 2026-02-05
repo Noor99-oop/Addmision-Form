@@ -1,0 +1,74 @@
+{
+    "sourceFile": "Addmision/src/App.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 14,
+            "patches": [
+                {
+                    "date": 1769496412331,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1769496417645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,13 +7,9 @@\n   const [count, setCount] = useState(0)\n \n   return (\n     <>\n-      <div>\n-        <a href=\"https://vite.dev\" target=\"_blank\">\n-          <img src={viteLogo} className=\"logo\" alt=\"Vite logo\" />\n-        </a>\n-        <a href=\"https://react.dev\" target=\"_blank\">\n+\n     \n     </>\n   )\n }\n"
+                },
+                {
+                    "date": 1769496429774,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,11 @@\n import { useState } from 'react'\n-import reactLogo from './assets/react.svg'\n-import viteLogo from '/vite.svg'\n+\n import './App.css'\n \n function App() {\n-  const [count, setCount] = useState(0)\n \n+\n   return (\n     <>\n \n     \n"
+                },
+                {
+                    "date": 1769496722539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { useState } from 'react'\n+\n+import './App.css'\n+\n+function App() {\n+\n+\n+  return (\n+    <>\n+<\n+    \n+    </>\n+  )\n+}\n+\n+export default App\n"
+                },
+                {
+                    "date": 1769496729556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { useState } from 'react'\n+\n+import './App.css'\n+\n+function App() {\n+\n+\n+  return (\n+    <>\n+A\n+    \n+    </>\n+  )\n+}\n+\n+export default App\n"
+                },
+                {
+                    "date": 1769496735279,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,43 +6,11 @@\n \n \n   return (\n     <>\n-A\n+,\n     \n     </>\n   )\n }\n \n export default App\n-import { useState } from 'react'\n-\n-import './App.css'\n-\n-function App() {\n-\n-\n-  return (\n-    <>\n-<\n-    \n-    </>\n-  )\n-}\n-\n-export default App\n-import { useState } from 'react'\n-\n-import './App.css'\n-\n-function App() {\n-\n-\n-  return (\n-    <>\n-\n-    \n-    </>\n-  )\n-}\n-\n-export default App\n"
+                },
+                {
+                    "date": 1769496750813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,11 +6,11 @@\n \n \n   return (\n     <>\n-,\n-    \n+    <\n     </>\n   )\n }\n \n export default App\n+\n"
+                },
+                {
+                    "date": 1769496756553,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,15 @@\n import { useState } from 'react'\n \n import './App.css'\n+import Admission from './assets/components/admision/admission'\n \n function App() {\n \n \n   return (\n     <>\n-    <\n+    <Admission\n     </>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1769496761728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \n \n   return (\n     <>\n-    <Admission\n+      <Admission />\n     </>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1769512478001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+import { useState } from 'react'\n+\n+import './App.css'\n+import Admission from './assets/components/admision/admission'\n+\n+function App() {\n+\n+\n+  return (\n+    <>\n+      <Admission />\n+      <\n+    </>\n+  )\n+}\n+\n+export default App\n+\n"
+                },
+                {
+                    "date": 1769512484530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,35 +1,19 @@\n import { useState } from 'react'\n \n import './App.css'\n import Admission from './assets/components/admision/admission'\n+import Education from './assets/components/Education/education'\n \n function App() {\n \n \n   return (\n     <>\n       <Admission />\n-      <\n+      <Education/>\n     </>\n   )\n }\n \n export default App\n \n-import { useState } from 'react'\n-\n-import './App.css'\n-import Admission from './assets/components/admision/admission'\n-\n-function App() {\n-\n-\n-  return (\n-    <>\n-      <Admission />\n-    </>\n-  )\n-}\n-\n-export default App\n-\n"
+                },
+                {
+                    "date": 1769512493249,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+import { useState } from 'react'\n+import './App.css'\n+import Admission from './assets/components/admision/admission'\n+import Education from './assets/components/Education/education'\n+\n+function App() {\n+\n+\n+  return (\n+    <>\n+      <Admission />\n+      <Education />\n+    </>\n+  )\n+}\n+\n+export default App\n+\n"
+                },
+                {
+                    "date": 1769926383012,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,29 +9,11 @@\n   return (\n     <>\n       <Admission />\n       <Education />\n+      <\n     </>\n   )\n }\n \n export default App\n \n-import { useState } from 'react'\n-\n-import './App.css'\n-import Admission from './assets/components/admision/admission'\n-import Education from './assets/components/Education/education'\n-\n-function App() {\n-\n-\n-  return (\n-    <>\n-      <Admission />\n-      <Education/>\n-    </>\n-  )\n-}\n-\n-export default App\n-\n"
+                },
+                {
+                    "date": 1769926388571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n   return (\n     <>\n       <Admission />\n       <Education />\n-      <Fee\n+      <Fee/\n     </>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1769927472802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   return (\n     <>\n       <Admission />\n       <Education />\n-   <Fee/\n+   <Fee/>\n     </>\n   )\n }\n \n"
+                }
+            ],
+            "date": 1769496412331,
+            "name": "Commit-0",
+            "content": "import { useState } from 'react'\nimport reactLogo from './assets/react.svg'\nimport viteLogo from '/vite.svg'\nimport './App.css'\n\nfunction App() {\n  const [count, setCount] = useState(0)\n\n  return (\n    <>\n      <div>\n        <a href=\"https://vite.dev\" target=\"_blank\">\n          <img src={viteLogo} className=\"logo\" alt=\"Vite logo\" />\n        </a>\n        <a href=\"https://react.dev\" target=\"_blank\">\n    \n    </>\n  )\n}\n\nexport default App\n"
+        }
+    ]
+}

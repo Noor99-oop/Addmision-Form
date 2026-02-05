@@ -1,0 +1,58 @@
+{
+    "sourceFile": "Addmision/src/assets/components/Education/education.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 10,
+            "patches": [
+                {
+                    "date": 1769512326710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1769512335062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+import React from \"react\";\r\n+import \"./navbar.css\"\r\n+import logo from '../../assets/matias.png'\r\n+import {Link} from 'react-router-dom';\r\n+const Navbar = () => {\r\n+    return (\r\n+        <>\r\n+\r\n+\r\n+\r\n+\r\n+        </>\r\n+    )\r\n+}\r\n+export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1769512346360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import React from \"react\";\r\n+import \"./education.css\"\r\n+\r\n+const Navbar = () => {\r\n+    return (\r\n+        <>\r\n+\r\n+\r\n+\r\n+\r\n+        </>\r\n+    )\r\n+}\r\n+export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1769512353759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from \"react\";\r\n import \"./education.css\"\r\n \r\n-const Navbar = () => {\r\n+const Education = () => {\r\n     return (\r\n         <>\r\n \r\n \r\n@@ -10,50 +10,5 @@\n \r\n         </>\r\n     )\r\n }\r\n-export default Navbar\n-import React from \"react\";\r\n-import \"./navbar.css\"\r\n-import logo from '../../assets/matias.png'\r\n-import {Link} from 'react-router-dom';\r\n-const Navbar = () => {\r\n-    return (\r\n-        <>\r\n-\r\n-\r\n-\r\n-\r\n-        </>\r\n-    )\r\n-}\r\n-export default Navbar\n-import React from \"react\";\r\n-import \"./navbar.css\"\r\n-import logo from '../../assets/matias.png'\r\n-import {Link} from 'react-router-dom';\r\n-const Navbar = () => {\r\n-    return (\r\n-        <>\r\n-\r\n-            <nav className='navbar'>\r\n-                <div className='matias'>\r\n-                    <img src={logo} alt=''></img>\r\n-                    <span className='noor'>Matias</span>\r\n-                </div>\r\n-                <nav className=\"nav-links\">\r\n-                    <Link to=\"/\" className='home'>HOME</Link>\r\n-                    <Link to=\"/about\">ABOUT</Link>\r\n-                    <Link to=\"/works\">WORKS</Link>\r\n-                    <Link to=\"/services\">SERVICES</Link>\r\n-                    <Link to=\"/testimonal\">TESTIMONIAL</Link>\r\n-                    <Link to=\"/blog\">BLOG</Link>\r\n-                    <Link to=\"/contact\">CONTACT</Link>\r\n-                </nav>\r\n-                <button className=\"button\">Let's Talk →</button>\r\n-            </nav>\r\n-\r\n-\r\n-        </>\r\n-    )\r\n-}\r\n export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1769512360865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,5 @@\n \r\n         </>\r\n     )\r\n }\r\n-export default Navbar\n\\ No newline at end of file\n+export default Education\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1769512370190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,12 +3,14 @@\n \r\n const Education = () => {\r\n     return (\r\n         <>\r\n+<div>\r\n+    \r\n+</div>\r\n \r\n \r\n \r\n-\r\n         </>\r\n     )\r\n }\r\n export default Education\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1769512377797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,14 +3,14 @@\n \r\n const Education = () => {\r\n     return (\r\n         <>\r\n-<div>\r\n-    \r\n-</div>\r\n+            <div cl>\r\n \r\n+            </div>\r\n \r\n \r\n+\r\n         </>\r\n     )\r\n }\r\n export default Education\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1769512499724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,14 +3,12 @@\n \r\n const Education = () => {\r\n     return (\r\n         <>\r\n-            <div cl>\r\n+            <div className=\"Education\">\r\n \r\n             </div>\r\n \r\n-\r\n-\r\n         </>\r\n     )\r\n }\r\n export default Education\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1769512521623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import React from \"react\";\r\n+import \"./education.css\"\r\n+\r\n+const Education = () => {\r\n+    return (\r\n+        <>\r\n+            <div className=\"Education\">\r\n+<h2></h2>\r\n+\r\n+\r\n+\r\n+\r\n+\r\n+            </div>\r\n+\r\n+        </>\r\n+    )\r\n+}\r\n+export default Education\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1769512528440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,5 +15,5 @@\n \r\n         </>\r\n     )\r\n }\r\n-export d\n\\ No newline at end of file\n+export default Education\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1769512701096,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,46 @@\n+import React from \"react\";\r\n+import \"./education.css\"\r\n+\r\n+const Education = () => {\r\n+    return (\r\n+        <>\r\n+            <div className=\"Education\">\r\n+                <h2>Education</h2>\r\n+ <div className=\"technology\">\r\n+                    <div className=\"iqbal\">\r\n+                        <div className=\"gender\">\r\n+                            <div className=\"male\">\r\n+                                <span className=\"first\">Email</span>\r\n+                            </div>\r\n+                            <div className=\"address\">\r\n+                                <input className=\"second\" type=\"text\" required max={20} ></input>\r\n+                            </div>\r\n+                            <div className=\"boxs\">\r\n+                                <span className=\"boxe\">example@example.com</span>\r\n+                            </div>\r\n+                        </div>\r\n+                    </div>\r\n+                    <div className=\"iqbal\">\r\n+                        <div className=\"gender\">\r\n+                            <div className=\"male\">\r\n+                                <span className=\"first\">Phone Number</span>\r\n+                            </div>\r\n+                            <div className=\"address\">\r\n+                                <input className=\"second\" type=\"text\" required max={20} placeholder=\" (000) 000-0000\"></input>\r\n+                            </div>\r\n+                            <div className=\"boxs\">\r\n+                                <span className=\"boxe\">Please enter a valid phone number</span>\r\n+                            </div>\r\n+                        </div>\r\n+                    </div>\r\n+                </div>\r\n+\r\n+\r\n+\r\n+\r\n+            </div>\r\n+\r\n+        </>\r\n+    )\r\n+}\r\n+export default Education\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1769512326710,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\r\nimport \"./navbar.css\"\r\nimport logo from '../../assets/matias.png'\r\nimport {Link} from 'react-router-dom';\r\nconst Navbar = () => {\r\n    return (\r\n        <>\r\n\r\n            <nav className='navbar'>\r\n                <div className='matias'>\r\n                    <img src={logo} alt=''></img>\r\n                    <span className='noor'>Matias</span>\r\n                </div>\r\n                <nav className=\"nav-links\">\r\n                    <Link to=\"/\" className='home'>HOME</Link>\r\n                    <Link to=\"/about\">ABOUT</Link>\r\n                    <Link to=\"/works\">WORKS</Link>\r\n                    <Link to=\"/services\">SERVICES</Link>\r\n                    <Link to=\"/testimonal\">TESTIMONIAL</Link>\r\n                    <Link to=\"/blog\">BLOG</Link>\r\n                    <Link to=\"/contact\">CONTACT</Link>\r\n                </nav>\r\n                <button className=\"button\">Let's Talk →</button>\r\n            </nav>\r\n\r\n\r\n        </>\r\n    )\r\n}\r\nexport default Navbar"
+        }
+    ]
+}

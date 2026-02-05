@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/main.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1770126372763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1770126481926,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import { StrictMode } from 'react'\n import { createRoot } from 'react-dom/client'\n+import \n import './index.css'\n import App from './App.jsx'\n \n createRoot(document.getElementById('root')).render(\n"
+                },
+                {
+                    "date": 1770126517296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import { StrictMode } from 'react'\n import { createRoot } from 'react-dom/client'\n-import \n+import import { BrowserRouter} from 'react-router-dom';\n import './index.css'\n import App from './App.jsx'\n \n createRoot(document.getElementById('root')).render(\n"
+                },
+                {
+                    "date": 1770126525210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import { StrictMode } from 'react'\n import { createRoot } from 'react-dom/client'\n-import import { BrowserRouter} from 'react-router-dom';\n+import { BrowserRouter} from 'react-router-dom';\n import './index.css'\n import App from './App.jsx'\n \n createRoot(document.getElementById('root')).render(\n"
+                }
+            ],
+            "date": 1770126372763,
+            "name": "Commit-0",
+            "content": "import { StrictMode } from 'react'\nimport { createRoot } from 'react-dom/client'\nimport './index.css'\nimport App from './App.jsx'\n\ncreateRoot(document.getElementById('root')).render(\n  <StrictMode>\n    <BrowserRouter>\n      <App />\n    </BrowserRouter>\n  </StrictMode>,\n)\n"
+        }
+    ]
+}

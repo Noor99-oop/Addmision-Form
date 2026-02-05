@@ -1,0 +1,18 @@
+{
+    "sourceFile": "Addmision/src/index.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1769496435111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1769496435111,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

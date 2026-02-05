@@ -1,0 +1,50 @@
+{
+    "sourceFile": "Addmision/src/assets/components/admision/admission.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1769496626061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1769496635490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import React from \"react\";\r\n+import \"./navbar.css\"\r\n+import logo from '../../assets/matias.png'\r\n+import {Link} from 'react-router-dom';\r\n+const Navbar = () => {\r\n+    return (\r\n+        <>\r\n+\r\n+         \r\n+\r\n+\r\n+\r\n+        </>\r\n+    )\r\n+}\r\n+export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1769496642028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,6 @@\n import React from \"react\";\r\n-import \"./navbar.css\"\r\n-import logo from '../../assets/matias.png'\r\n-import {Link} from 'react-router-dom';\r\n+\r\n const Navbar = () => {\r\n     return (\r\n         <>\r\n \r\n@@ -12,35 +10,5 @@\n \r\n         </>\r\n     )\r\n }\r\n-export default Navbar\n-import React from \"react\";\r\n-import \"./navbar.css\"\r\n-import logo from '../../assets/matias.png'\r\n-import {Link} from 'react-router-dom';\r\n-const Navbar = () => {\r\n-    return (\r\n-        <>\r\n-\r\n-            <nav className='navbar'>\r\n-                <div className='matias'>\r\n-                    <img src={logo} alt=''></img>\r\n-                    <span className='noor'>Matias</span>\r\n-                </div>\r\n-                <nav className=\"nav-links\">\r\n-                    <Link to=\"/\" className='home'>HOME</Link>\r\n-                    <Link to=\"/about\">ABOUT</Link>\r\n-                    <Link to=\"/works\">WORKS</Link>\r\n-                    <Link to=\"/services\">SERVICES</Link>\r\n-                    <Link to=\"/testimonal\">TESTIMONIAL</Link>\r\n-                    <Link to=\"/blog\">BLOG</Link>\r\n-                    <Link to=\"/contact\">CONTACT</Link>\r\n-                </nav>\r\n-                <button className=\"button\">Let's Talk →</button>\r\n-            </nav>\r\n-\r\n-\r\n-        </>\r\n-    )\r\n-}\r\n export default Navbar\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1769496647875,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,5 @@\n \r\n         </>\r\n     )\r\n }\r\n-export default Navbar\n\\ No newline at end of file\n+export default \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1769496653341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+import React from \"react\";\r\n+\r\n+const  = () => {\r\n+    return (\r\n+        <>\r\n+\r\n+         \r\n+\r\n+\r\n+\r\n+        </>\r\n+    )\r\n+}\r\n+export default \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1769496661071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from \"react\";\r\n \r\n-const  = () => {\r\n+const Admission = () => {\r\n     return (\r\n         <>\r\n \r\n          \r\n@@ -10,19 +10,5 @@\n \r\n         </>\r\n     )\r\n }\r\n-export default \n-import React from \"react\";\r\n-\r\n-const Navbar = () => {\r\n-    return (\r\n-        <>\r\n-\r\n-         \r\n-\r\n-\r\n-\r\n-        </>\r\n-    )\r\n-}\r\n export default \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1769496671132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,5 @@\n \r\n         </>\r\n     )\r\n }\r\n-export default \n\\ No newline at end of file\n+export default Admission\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1769497176894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-Admission\n\\ No newline at end of file\n+Admissio\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1769497184992,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+.Admission{\r\n+    wi\r\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1769496626061,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\r\nimport \"./navbar.css\"\r\nimport logo from '../../assets/matias.png'\r\nimport {Link} from 'react-router-dom';\r\nconst Navbar = () => {\r\n    return (\r\n        <>\r\n\r\n            <nav className='navbar'>\r\n                <div className='matias'>\r\n                    <img src={logo} alt=''></img>\r\n                    <span className='noor'>Matias</span>\r\n                </div>\r\n                <nav className=\"nav-links\">\r\n                    <Link to=\"/\" className='home'>HOME</Link>\r\n                    <Link to=\"/about\">ABOUT</Link>\r\n                    <Link to=\"/works\">WORKS</Link>\r\n                    <Link to=\"/services\">SERVICES</Link>\r\n                    <Link to=\"/testimonal\">TESTIMONIAL</Link>\r\n                    <Link to=\"/blog\">BLOG</Link>\r\n                    <Link to=\"/contact\">CONTACT</Link>\r\n                </nav>\r\n                <button className=\"button\">Let's Talk →</button>\r\n            </nav>\r\n\r\n\r\n        </>\r\n    )\r\n}\r\nexport default Navbar"
+        }
+    ]
+}

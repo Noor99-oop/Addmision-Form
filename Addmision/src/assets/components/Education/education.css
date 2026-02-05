@@ -1,0 +1,92 @@
+.Education {
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.Education h2 {
+    padding: 0px 30px;
+}
+
+.tech {
+    display: flex;
+    gap: 100px;
+    padding: 0px 30px;
+}
+
+.Phone {
+    width: 500px;
+    height: 80px;
+    margin-top: 40px;
+
+}
+
+.Phones {
+    width: 500px;
+    height: 80px;
+    margin-top: 50px;
+
+}
+
+.streets {
+    margin-top: 50px;
+    padding: 0px 30px;
+}
+
+.drops {
+    width: 1000px;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 60px;
+}
+
+.drops:hover {
+    border: 2px solid rgb(65, 138, 189);
+}
+
+.droped {
+    padding: 0px 30px;
+}
+
+.button {
+    display: flex;
+    padding: 0px 30px;
+    margin-top: 50px;
+    gap: 800px;
+}
+
+.of {
+    margin-top: 25px;
+    width: 90px;
+    height: 38px;
+    background-color: rgb(170, 170, 211);
+    color: black;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.of:hover {
+    background-color: rgb(206, 206, 246);
+}
+
+.on {
+    margin-top: 25px;
+    width: 90px;
+    height: 38px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.on:hover {
+    background-color: rgb(50, 82, 200);
+}
+
+.lines {
+    margin-top: 10px;
+    color: rgb(214, 211, 211);
+    margin-left: 20px;
+}

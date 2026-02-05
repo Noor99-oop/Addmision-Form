@@ -1,0 +1,26 @@
+{
+    "sourceFile": "Addmision/src/assets/components/Fee/Fee.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1769927574959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1769927581661,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-.Fee.h3\n\\ No newline at end of file\n+.Fee.h3{}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1769927589740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+.Fee.h3{\r\n+mar\r\n+\r\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1769927574959,
+            "name": "Commit-0",
+            "content": "Fe"
+        }
+    ]
+}

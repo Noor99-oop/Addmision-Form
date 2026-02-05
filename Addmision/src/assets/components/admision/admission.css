@@ -1,0 +1,196 @@
+.Admission {
+    width: 80%;
+    height: auto;
+}
+
+.form {
+    padding: 0px 30px;
+}
+
+.Admission h2 {
+    font-size: 28px;
+    letter-spacing: 1px;
+
+}
+
+.Admission p {
+    font-size: 18px;
+
+}
+
+.line {
+    font-weight: bold;
+    color: gray;
+}
+
+.name {
+    padding: 0px 30px;
+    margin-top: 30px;
+}
+
+.firsts {
+    font-size: 18px;
+    width: 395px;
+    height: 40px;
+
+}
+.firsts:hover{
+    border: 2px solid rgb(106, 148, 217);
+}
+
+.text {
+    margin-top: 10px;
+    padding: 0px 30px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.boxes {
+    display: flex;
+    gap: 315px;
+    padding: 0px 30px;
+    margin-top: 10px;
+}
+
+.box {
+    font-size: 14px;
+}
+
+.noor {
+    display: flex;
+    gap: 340px;
+    padding: 0px 35px;
+    margin-top: 10px;
+}
+
+.noor1 {
+    font-size: 14px;
+}
+
+.date {
+    margin-top: 20px;
+    padding: 0px 30px;
+    display: flex;
+}
+.drop:hover{
+    border: 2px solid rgb(65, 138, 189);
+}
+.drop {
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.technology {
+    display: flex;
+    gap: 200px;
+}
+
+.iqbal {
+    width: 500px;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+
+.operate {
+    display: flex;
+    gap: 30px;
+}
+
+.web {
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+}
+
+.female {
+    display: flex;
+}
+
+.address {
+    margin-top: 10px;
+}
+
+.second {
+    font-size: 18px;
+    width: 395px;
+    height: 40px;
+}
+.second:hover{
+    border: 2px solid rgb(65, 138, 189);
+}
+
+.third {
+    font-size: 18px;
+    width: 1065px;
+    height: 40px;
+}
+.third:hover{
+    border: 2px solid rgb(65, 138, 189);
+}
+.street {
+    margin-top: 10px;
+    padding: 0px 30px;
+}
+
+.line {
+    margin-top: 20px;
+    font-size: 14px;
+}
+.boxe {
+    font-size: 16px;
+}
+.boxs {
+    margin-top: 10px;
+}
+
+.book {
+    width: 200px;
+    height: 30px;
+}
+.contact {
+    font-size: 18px;
+    width: 395px;
+    height: 40px;
+   margin-top: 10px;
+}
+.contact:hover{
+    border: 2px solid rgb(65, 138, 189);
+}
+.speak{
+    margin-top: 50px;
+    padding: 0px 30px;
+}
+.speaker{
+    font-size: 19px;
+    font-weight: bold;
+}
+.operates {
+    display: flex;
+    gap: 170px;
+}
+.next{
+    margin-top: 25px;
+    width: 90px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-left: 1030px;
+        border-radius: 5px;
+}
+.next:hover{
+    background-color:  rgb(50, 82, 200);
+}
+.first{
+    font-weight: bold;
+        font-size: 18px;
+}
+.female:hover{
+    border: 2px solid rgb(65, 138, 189);
+}
